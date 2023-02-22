@@ -1,0 +1,169 @@
+html code
+-----------------------------\
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cafe Menu</title>
+    <link href="pizza.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="menu">
+      <main>
+        <h1>🍕SPICY PIZZA HUT🍕</h1>
+        <p class="established">Est. 2023</p>
+        <hr>
+        <section>
+          <h2>Pizza</h2>
+          <img src="https://tse1.mm.bing.net/th?id=OIP.fnBJ9toBG2Dm81AkEMwJCQHaE8&pid=Api&P=0" alt="pizza icon"/>
+          <article class="item">
+           <p class="type">-----TYPE-----</p><p class="price">--PRICE--</p>
+          </article>
+          <article class="item">
+            <p class="type">Chicken Golden Delight</p><p class="price">279/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Non-Veg Supreme</p><p class="price">609/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Indi Chicken Tikka</p><p class="price">330/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Creamy Tomato Pastha Pizza-Non veg</p><p class="price">570/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Chicken Fiesta</p><p class="price">199/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Mexican Green Wave</p><p class="price">99/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Veg Extravaganza</p><p class="price">299/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Paneer Makhani</p><p class="price">399/-</p>
+          </article>
+          <article class="item">
+            <p class="type">Veggie Paradise</p><p class="price">400/-</p>
+          </article>
+          <article class="item">
+            <p class="type">The 4 Cheese Pizza</p><p class="price">699/-</p>
+          </article>
+        </section>
+        
+      </main>
+      <hr class="bottom-line">
+      <footer>
+        <p>
+          <a href="items.html" target="_blank">Visit our website</a>
+        </p>
+        <p class="address">I LOVE SPICY PIZZA HUT</p>
+        <p>❤‍🔥VISIT AGAIN.....!!!!❤‍🔥</p>
+      </footer>
+    </div>
+  </body>
+</html>
+--------------------------------------------------------------------------------------------
+css code
+----------------\
+
+body{
+    background: linear-gradient(45deg,rgb(148, 170, 74), rgb(234, 95, 132), rgb(181, 107, 54));
+    }
+ img{
+    width: 100px;
+    height: 100px;
+ }
+ .type{
+    text-align:left;
+    width:49%;
+ }
+ .price{
+    text-align:right;
+    width:49%;
+ }
+  h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  .established {
+    font-style: italic;
+  }
+  
+  h1, h2, p {
+    text-align: center;
+  }
+  
+  .menu {
+    width: 80%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  hr {
+    height: 2px;
+    background-color: rgb(42, 163, 165);
+    border-color: rgb(165, 42, 114);
+  }
+  
+  .bottom-line {
+    margin-top: 25px;
+  }
+  
+  h1, h2 {
+    font-family: Impact, serif;
+  }
+  
+  .item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color:black;
+  }
+  
+ 
+  
+  
+  
+  /* FOOTER */
+  
+  footer {
+    font-size: 14px;
+  }
+  
+  .address {
+    margin-bottom: 5px;
+  }
+  
+  a {
+    color: black;
+  }
+  
+  a:visited {
+    color: black;
+  }
+  
+  a:hover {
+    color: brown;
+  }
+  
+  a:active {
+    color: brown;
+  }
